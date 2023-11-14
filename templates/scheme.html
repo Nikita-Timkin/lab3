@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Схема решения квадратного уравнения</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/design.css') }}">
+  </head>
+  <body>
+    <div>
+    <header class="top">
+        <img id="headerLogo"
+             src="static/images/header.png" alt="Нахождение корней квадратного уравнения">
+      </header>
+
+    <nav>
+      <ul>
+        <li><a href="/">Главная</a></li>
+        <li class="selected"><a href="/scheme">Схема решения квадратного уравнения</a></li>
+        <li><a href="/links">Полезные ссылки</a></li>
+        <li><a href="/about">Об авторе</a></li>
+      </ul>
+      </nav>
+
+    <h1>Схема решения квадратного уравнения</h1>
+    <h2>Пусть дано уравнение: <img src="static/images/equation.png" id="first"></h2>
+    <p>
+        Нам необходимо найти дискриминант. Его формула: <img src="static/images/discriminant.png" id="second">
+    </p>
+    <p>
+        Если дискриминант отрицательный, то уравнение не имеет действительных корней. Если же дискриминант положительный или равен нулю, то продолжаем.
+    </p>
+    <p>
+        Находим корни уравнения по следующей формуле: <img src="static/images/answer.png" id="third">
+    </p>
+
+    <footer>
+        &copy; 2023, Тимкин Н.
+      </footer>
+    </div>
+  </body>
+</html>
